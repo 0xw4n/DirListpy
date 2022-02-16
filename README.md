@@ -4,6 +4,9 @@ DirListpy is a tool to help finding any directory listing in a website. By suppl
 
 Usage: 
 Supply single URL
+
 ```DirList.py -u url```
-Supply list of URLs
+
+Use list of URLs
+
 ```DirList.py -U url-list.txt```
