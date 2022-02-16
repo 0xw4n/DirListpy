@@ -11,6 +11,9 @@ def url_parser(target):
         if 'http://' in target:
             scheme = 'http://'
             target = target.replace('http://', '')
+        else:
+            scheme = 'https://'
+            target = scheme + target
     url = target.split('/')
     url.insert(0, scheme)
     if url[-1] == '':
